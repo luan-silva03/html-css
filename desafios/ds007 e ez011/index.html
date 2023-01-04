@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em Html</title>
+</head>
+<body>
+    <h1>Imagem dinámica</h1>
+    <p>tente abrir esse site em varios dispositivos diferentes ou aumenta e diminuir o tamanho do navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="foto-m.png" type="image/png">
+        <img src="foto-g.png" alt="Imagem flexível">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <p>Reprodizir audio no Html5</p>
+    <audio preload="metadata" controls autoplay loop>
+        <source src="C:\Users\MATHEUS SAVIO\Desktop\Luan programaçao\audios\happy-mistake.mp3" type="audio/mpeg">
+        <p>Sua batata não roda o audio <a href="C:\Users\MATHEUS SAVIO\Desktop\Luan programaçao\audios\happy-mistake.mp3">baixe aqui</a></p>
+    </audio>
+    <audio preload="metadata" controls autoplay loop>
+        <source src="C:\Users\MATHEUS SAVIO\Desktop\Luan programaçao\audios\guanacast-33.mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>
