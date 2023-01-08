@@ -50,6 +50,7 @@ section {
     font-size: 3vh;
 }
 section > p {
+    padding-left: 50px;
     padding-bottom: 2em;
 }
 section.normal {
