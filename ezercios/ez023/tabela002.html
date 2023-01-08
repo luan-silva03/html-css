@@ -13,6 +13,12 @@
             width: 400px;
             border-collapse: collapse;
         }
+        caption {
+            font-size: 1.5wm;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
         td, th {
             border: 1px solid black;
             padding: 10px;
@@ -32,6 +38,7 @@
     <!--
         ANOTOMIA PARA TABELAS GRANDES
         TABLE
+            CAPTION
             T HEAD
                 TR, TD, TH
             T BODY
@@ -42,10 +49,13 @@
     -->
 
     <table>
+        <caption>
+            População das Unidades
+        </caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <td>População</td>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
         </thead>
         <tbody>
             <tr>
@@ -63,8 +73,8 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de habitantes</th>
-                <td class="numero"><strong>84352783</strong></td>
+                <th scope="row">Total de habitantes</th>
+                <td class="numero"><strong>84 352 783</strong></td>
             </tr>
         </tfoot>
     </table>
